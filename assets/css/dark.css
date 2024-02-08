@@ -17,7 +17,7 @@ textarea:focus::-webkit-input-placeholder {
 
 input:focus:-moz-placeholder,
 textarea:focus:-moz-placeholder {
-	color: #f0f0f0 !important;
+	color: #f0f0f0 !importaSnt;
 }
 
 input:focus::-moz-placeholder,
@@ -120,7 +120,7 @@ header {
 
 .mfp-close-btn-in .mfp-close {
 	background: #31313a !important;
-	color: #fff !important;
+	color: #ffffff !important;
 }
 
 .section .content .title .title_inner, 
@@ -164,7 +164,7 @@ ins,
 header .head-top .menu-btn span,
 header .head-top .menu-btn:before,
 header .head-top .menu-btn:after {
-	background: #f0f0f0 !important;
+	background: #c7009c !important;
 }
 
 .search-form input.search-submit {
