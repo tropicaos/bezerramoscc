@@ -22,7 +22,7 @@ header.active .head-top .top-menu {
   bottom:0px;
   right:0px;
   height: auto;
-  background-color:#fff;
+  background-color:#000000;
   text-align: center;
   opacity: 1!important;
   visibility: visible!important;
@@ -106,7 +106,7 @@ header .head-top .top-menu ul li.active a {
   color: var(--extra-color);
 }
 header .head-top .top-menu ul li.active .btn {
-  color: #ffffff;
+  color: #FFFFFF;
   background: var(--extra-color);
   border: 1px solid var(--extra-color);
 }

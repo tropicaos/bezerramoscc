@@ -17,7 +17,7 @@ textarea:focus::-webkit-input-placeholder {
 
 input:focus:-moz-placeholder,
 textarea:focus:-moz-placeholder {
-	color: #f0f0f0 !importaSnt;
+	color: #f0f0f0 !important;
 }
 
 input:focus::-moz-placeholder,
@@ -120,7 +120,7 @@ header {
 
 .mfp-close-btn-in .mfp-close {
 	background: #31313a !important;
-	color: #ffffff !important;
+	color: #fff !important;
 }
 
 .section .content .title .title_inner, 
@@ -199,22 +199,22 @@ header .head-top .top-menu-nav .children {
 
 header .head-top .top-menu-nav .sub-menu:before, 
 header .head-top .top-menu-nav .children:before {
-	border-bottom-color: #3e3f48 !important;
+	border-bottom-color: #0519c9 !important;
 }
 
 header .head-top .top-menu-nav .sub-menu li .sub-menu:before, 
 header .head-top .top-menu-nav .children li .children:before {
-	border-right-color: #3e3f48 !important;
+	border-right-color: #de6a0c !important;
 }
 
 header .head-top .top-menu-nav .sub-menu li, 
 header .head-top .top-menu-nav .children li {
-	border-bottom-color: #666666 !important;
+	border-bottom-color: #04ece0 !important;
 }
 
 header .head-top .top-menu-nav .sub-menu li a, 
 header .head-top .top-menu-nav .children li a {
-	color: #a2a2a6 !important;
+	color: #05f715 !important;
 }
 
 header .head-top .top-menu-nav .sub-menu li:hover a, 
