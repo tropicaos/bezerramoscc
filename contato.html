@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-		<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5S25T7G846"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5S25T7G846');
-</script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-71C17ME4JL"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+    gtag('config', 'G-71C17ME4JL');
+	</script>
 	<!-- Basic -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>CONTATO - Bezerramos</title>
@@ -122,7 +121,23 @@
 							</p>
 						</div>
 					</div>
-					<div class="contact_form mt-[30px]">
+
+					<div class="contact_form mt-[30px]">	
+						<form action="https://formspree.io/f/xbjngbgj" method="POST">
+						<label for="nome">Nome:</label><br>
+						<input type="text" id="nome" name="nome" required><br><br>
+				
+						<label for="email">Email:</label><br>
+						<input type="email" id="email" name="email" required><br><br>
+				
+						<label for="mensagem">Mensagem:</label><br>
+						<textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+				
+						<button type="submit" class="btn fill" onclick="$('#cform').submit(); return false;" data-text="Enviar" >Enviar</button>
+						</form>
+					</div>
+
+					<!--<div class="contact_form mt-[30px]">
 						<form id="cform" method="post" action="https://formspree.io/f/xbjngbgj">
 							<div class="group-val">
 								<input type="text" name="name" placeholder="Nome" />
@@ -140,7 +155,7 @@
 							Obrigado por sua mensagem! Responderei o mais rápido possível!
 							</p>
 						</div>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		
