@@ -124,17 +124,20 @@
 
 					<div class="contact_form mt-[30px]">	
 						<form action="https://formspree.io/f/xbjngbgj" method="POST">
-						<label for="nome">Nome:</label><br>
-						<input type="text" id="nome" name="nome" required><br><br>
+
+						<input type="text" id="nome" name="nome" placeholder="Nome" required><br>
 				
-						<label for="email">Email:</label><br>
-						<input type="email" id="email" name="email" required><br><br>
+						<input type="email" id="email" name="email" placeholder="Email" required><br>
 				
-						<label for="mensagem">Mensagem:</label><br>
-						<textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+						<textarea id="mensagem" name="mensagem" placeholder="Mensagem" rows="3" required></textarea><br>
 				
 						<button type="submit" class="btn fill" onclick="$('#cform').submit(); return false;" data-text="Enviar" >Enviar</button>
 						</form>
+						<div class="alert-success">
+							<p>
+							Obrigado por sua mensagem! Responderei o mais rápido possível!
+							</p>
+						</div>
 					</div>
 
 					<!--<div class="contact_form mt-[30px]">
