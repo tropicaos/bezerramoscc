@@ -72,7 +72,7 @@
 						<li class="ml-[50px] inline-block align-top"><a href="curriculo" class="lnk block mt-[12px]">Currículo</a></li>
 						<!--<li class="ml-[50px] inline-block align-top"><a href="portfolio" class="lnk block mt-[12px]">Portfolio</a></li>
 						<li class="ml-[50px] inline-block align-top"><a href="blog" class="lnk block mt-[12px]">Blog</a></li>-->
-						<li class="ml-[50px] inline-block align-top"><a href="contato" class="btn mt-0">Contato</a></li>
+						<li class="ml-[50px] inline-block align-top" onclick="$('#cform').submit(); return false;"><a href="contato" class="btn mt-0">Contato</a></li>
 					</ul>
 				</div>
 			</div>
@@ -123,8 +123,22 @@
 							</p>
 						</div>
 					</div>
-
-					<div class="contact_form mt-[30px]">	
+					<div class="contact_form mt-[30px]">
+						<form action="https://formspree.io/f/xbjngbgj"
+						method="POST">
+							<input type="text" name="Remetente" placeholder="Seu nome" required>
+							<input type="text" name="Email" required placeholder="Seu email"><strong>
+							<input class="text" type="text" name="Texto" placeholder="Sua mensagem" required>
+							<button type="submit" class="btn fill" onclick="$('#cform').submit(); return false;" data-text="Enviar" >Enviar</button>
+						</form>
+						<div class="alert-success">
+							<p>
+							Obrigado por sua mensagem! Responderei o mais rápido possível!
+							</p>
+						</div>
+						</form>
+					</div>
+					<!--<div class="contact_form mt-[30px]">	
 						<form action="https://formspree.io/f/xbjngbgj" method="POST">
 
 						<input type="text" id="nome" name="nome" placeholder="Nome" required><br>
@@ -142,7 +156,7 @@
 						</div>
 					</div>
 
-					<!--<div class="contact_form mt-[30px]">
+					<div class="contact_form mt-[30px]">
 						<form id="cform" method="post" action="https://formspree.io/f/xbjngbgj">
 							<div class="group-val">
 								<input type="text" name="name" placeholder="Nome" />
