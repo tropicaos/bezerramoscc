@@ -22,26 +22,26 @@ $(function () {
 		loop: true
 	});
 	
-	/* Preloader */
+	/* Preloader 
 	$(window).load(function() {
 		$(".preloader .pre-inner").fadeOut(800, function(){
-			/* Preload hide */
+			/* Preload hide 
 			$('.preloader').fadeOut();
 			$('body').addClass('loaded');
 			
-			/* Typed subtitle */
+			/* Typed subtitle 
 			$('.typed-subtitle').typed({
 				stringsElement: $('.typing-subtitle'),
 				loop: true
 			});
 			
-			/* Typed breadcrumbs */
+			/* Typed breadcrumbs 
 			$('.typed-bread').typed({
 				stringsElement: $('.typing-bread'),
 				showCursor: false
 			});
 
-			/* One Page Nav */
+			/* One Page Nav 
 			var url_hash = location.hash;
 			var sectionElem = $(url_hash);
 			if(url_hash.indexOf('#section-') == 0 && sectionElem.length){
