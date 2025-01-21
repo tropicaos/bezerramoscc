@@ -668,43 +668,6 @@ MagnificPopup.prototype = {
 		mfp.open(options);
 	},
 
-
-	/**
-	 * Updates text on preloader
-	 */
-	updateStatus: function(status, text) {
-
-		if(mfp.preloader) {
-			if(_prevStatus !== status) {
-				mfp.container.removeClass('mfp-s-'+_prevStatus);
-			}
-
-			if(!text && status === 'loading') {
-				text = mfp.st.tLoading;
-			}
-
-			var data = {
-				status: status,
-				text: text
-			};
-			// allows to modify status
-			_mfpTrigger('UpdateStatus', data);
-
-			status = data.status;
-			text = data.text;
-
-			mfp.preloader.html(text);
-
-			mfp.preloader.find('a').on('click', function(e) {
-				e.stopImmediatePropagation();
-			});
-
-			mfp.container.addClass('mfp-s-'+status);
-			_prevStatus = status;
-		}
-	},
-
-
 	/*
 		"Private" helpers that aren't private at all
 	 */
@@ -865,7 +828,7 @@ $.magnificPopup = {
 
 		mainClass: '',
 
-		preloader: true,
+		preloader: false,
 
 		focus: '', // CSS selector of input to focus after popup is opened
 

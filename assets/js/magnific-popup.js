@@ -850,7 +850,7 @@ $.magnificPopup = {
 
 		mainClass: '',
 
-		preloader: true,
+		preloader: false,
 
 		focus: '', // CSS selector of input to focus after popup is opened
 
