@@ -668,21 +668,6 @@ MagnificPopup.prototype = {
 		mfp.open(options);
 	},
 
-
-	/**
-	 * Updates text on preloader
-	 */
-	updateStatus: function(status, text) {
-
-		if(mfp.preloader) {
-			if(_prevStatus !== status) {
-				mfp.container.removeClass('mfp-s-'+_prevStatus);
-			}
-
-			if(!text && status === 'loading') {
-				text = mfp.st.tLoading;
-			}
-
 			var data = {
 				status: status,
 				text: text
