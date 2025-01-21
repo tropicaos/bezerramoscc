@@ -8,38 +8,6 @@ $(function () {
     var height = $(window).height();
     $('.section.started').css({'height': height-60});
     
-    /* Typed preload text */
-    $('.typed-load').typed({
-        stringsElement: $('.typing-load'),
-        loop: true
-    });
-    
-        if(jQuery('.anchor_nav').length){
-        jQuery('.anchor_nav').onePageNav();
-    }
-    
-    /*Menu mobile*/
-    $('header').on('click', '.menu-btn', function(){
-        if($('header').hasClass('active')){
-            $('header').removeClass('active');
-            // $('body').addClass('loaded');
-        } else {
-            $('header').addClass('active');
-            // $('body').removeClass('loaded');
-        }
-        
-        return false;
-    });
-    if(jQuery('.anchor_nav').length){
-        var www  = jQuery(window).width();
-        if(www <= 840){
-            jQuery('header .head-top .top-menu ul li a').on('click',function(){
-                $('header').removeClass('active');
-                return false;
-            });
-        }
-    }
-    
     /* Hide mouse button on scroll */
     $(window).scroll(function(){
         if ($(this).scrollTop() >= 1 /*$('#blue_bor').offset().top*/) {
