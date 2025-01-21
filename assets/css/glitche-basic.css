@@ -294,28 +294,6 @@ a.btn:hover,
 	border: 1px solid var(--extra-color);
 }
 
-/* 7. Preloader 
-.preloader {
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	z-index: 1000;
-	top: 0;
-	left: 0;
-	text-align: center;
-}
-
-.preloader .load {
-	color: var(--extra-color);
-	font-size: 12px;
-}
-
-.preloader .typed-load,
-.preloader .typed-cursor {
-	color: var(--extra-color);
-	font-size: 12px;
-}
-
 /* 8. Forms */
 input,
 textarea,
